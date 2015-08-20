@@ -1,0 +1,341 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CY7C65215 U1
+U 1 1 55D415C0
+P 5850 3250
+F 0 "U1" H 5250 4300 50  0000 L CNN
+F 1 "CY7C65215" H 6050 4300 50  0000 L CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 5850 1000 60  0001 C CNN
+F 3 "" H 5900 2900 60  0000 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 55D437CF
+P 5450 1850
+F 0 "C2" V 5600 1800 50  0000 L CNN
+F 1 "1.0uF" V 5300 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5488 1700 30  0001 C CNN
+F 3 "" H 5450 1850 60  0000 C CNN
+	1    5450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 55D43802
+P 5250 1950
+F 0 "#PWR01" H 5250 1700 50  0001 C CNN
+F 1 "GND" H 5250 1800 50  0000 C CNN
+F 2 "" H 5250 1950 60  0000 C CNN
+F 3 "" H 5250 1950 60  0000 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR02
+U 1 1 55D438BA
+P 5850 1850
+F 0 "#PWR02" H 5850 1700 50  0001 C CNN
+F 1 "VDD" H 5850 2000 50  0000 C CNN
+F 2 "" H 5850 1850 60  0000 C CNN
+F 3 "" H 5850 1850 60  0000 C CNN
+	1    5850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_OTG P1
+U 1 1 55D438EC
+P 4300 2050
+F 0 "P1" H 4600 1850 50  0000 C CNN
+F 1 "USB_B" H 4250 2250 50  0000 C CNN
+F 2 "Connect:USB_Micro-B" V 4250 1950 60  0001 C CNN
+F 3 "" V 4250 1950 60  0000 C CNN
+	1    4300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 55D43AD7
+P 4500 2350
+F 0 "#PWR03" H 4500 2100 50  0001 C CNN
+F 1 "GND" H 4500 2200 50  0000 C CNN
+F 2 "" H 4500 2350 60  0000 C CNN
+F 3 "" H 4500 2350 60  0000 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR04
+U 1 1 55D43AF1
+P 3600 2200
+F 0 "#PWR04" H 3600 2050 50  0001 C CNN
+F 1 "VDD" H 3600 2350 50  0000 C CNN
+F 2 "" H 3600 2200 60  0000 C CNN
+F 3 "" H 3600 2200 60  0000 C CNN
+	1    3600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 55D43ECA
+P 4700 1950
+F 0 "#PWR05" H 4700 1700 50  0001 C CNN
+F 1 "GND" H 4700 1800 50  0000 C CNN
+F 2 "" H 4700 1950 60  0000 C CNN
+F 3 "" H 4700 1950 60  0000 C CNN
+	1    4700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 55D43F82
+P 3600 2600
+F 0 "C1" H 3625 2700 50  0000 L CNN
+F 1 "0.1uF" H 3625 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3638 2450 30  0001 C CNN
+F 3 "" H 3600 2600 60  0000 C CNN
+	1    3600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 55D44169
+P 3600 2750
+F 0 "#PWR06" H 3600 2500 50  0001 C CNN
+F 1 "GND" H 3600 2600 50  0000 C CNN
+F 2 "" H 3600 2750 60  0000 C CNN
+F 3 "" H 3600 2750 60  0000 C CNN
+	1    3600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 55D442BA
+P 5850 4550
+F 0 "#PWR07" H 5850 4300 50  0001 C CNN
+F 1 "GND" H 5850 4400 50  0000 C CNN
+F 2 "" H 5850 4550 60  0000 C CNN
+F 3 "" H 5850 4550 60  0000 C CNN
+	1    5850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55D44442
+P 4950 2400
+F 0 "R1" V 5030 2400 50  0000 C CNN
+F 1 "4.7k" V 4950 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4880 2400 30  0001 C CNN
+F 3 "" H 4950 2400 30  0000 C CNN
+	1    4950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR08
+U 1 1 55D44481
+P 4950 2250
+F 0 "#PWR08" H 4950 2100 50  0001 C CNN
+F 1 "VDD" H 4950 2400 50  0000 C CNN
+F 2 "" H 4950 2250 60  0000 C CNN
+F 3 "" H 4950 2250 60  0000 C CNN
+	1    4950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 55D44592
+P 3850 2350
+F 0 "F1" H 3950 2400 50  0000 C CNN
+F 1 "FUSE" H 3750 2300 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" H 3850 2350 60  0001 C CNN
+F 3 "" H 3850 2350 60  0000 C CNN
+F 4 "507-1786-1-ND" H 3850 2350 60  0001 C CNN "Digikey"
+	1    3850 2350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 2350
+Wire Wire Line
+	5250 1850 5250 1950
+Wire Wire Line
+	3600 2200 3600 2450
+Connection ~ 3600 2350
+Wire Wire Line
+	5650 4450 6050 4450
+Connection ~ 5950 4450
+Connection ~ 5850 4450
+Connection ~ 5750 4450
+Wire Wire Line
+	5850 4450 5850 4550
+Wire Wire Line
+	5850 1850 5850 2050
+Wire Wire Line
+	5750 2050 5950 2050
+Connection ~ 5850 2050
+Wire Wire Line
+	5650 2050 5650 1850
+Wire Wire Line
+	5300 1850 5250 1850
+Wire Wire Line
+	5650 1850 5600 1850
+$Comp
+L CONN_01X06 P3
+U 1 1 55D56B31
+P 6950 2800
+F 0 "P3" H 6950 3150 50  0000 C CNN
+F 1 "CONN_01X06" V 7050 2800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 6950 2800 60  0001 C CNN
+F 3 "" H 6950 2800 60  0000 C CNN
+	1    6950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P4
+U 1 1 55D56C1E
+P 6950 3500
+F 0 "P4" H 6950 3850 50  0000 C CNN
+F 1 "CONN_01X06" V 7050 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 6950 3500 60  0001 C CNN
+F 3 "" H 6950 3500 60  0000 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X10 P2
+U 1 1 55D56CB9
+P 4350 3600
+F 0 "P2" H 4350 4150 50  0000 C CNN
+F 1 "CONN_01X10" V 4450 3600 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 4350 3600 60  0001 C CNN
+F 3 "" H 4350 3600 60  0000 C CNN
+	1    4350 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3750 4950 3750
+Wire Wire Line
+	4750 3650 4950 3650
+Wire Wire Line
+	4750 3550 4950 3550
+Wire Wire Line
+	4750 3450 4950 3450
+Wire Wire Line
+	4750 3350 4950 3350
+Wire Wire Line
+	4750 3250 4950 3250
+Wire Wire Line
+	4950 3150 4750 3150
+Wire Wire Line
+	4950 3950 4750 3950
+Wire Wire Line
+	6750 3950 6950 3950
+Text Label 6850 3950 0    60   ~ 0
+SUSPEND
+Text Label 4950 3950 2    60   ~ 0
+WAKEUP
+Text Label 4950 3750 2    60   ~ 0
+GPIO_18
+Text Label 4950 3650 2    60   ~ 0
+GPIO_17
+Text Label 4950 3550 2    60   ~ 0
+GPIO_16
+Text Label 4950 3450 2    60   ~ 0
+GPIO_7
+Text Label 4950 3350 2    60   ~ 0
+GPIO_6
+Text Label 4950 3250 2    60   ~ 0
+GPIO_1
+Text Label 4950 3150 2    60   ~ 0
+GPIO_0
+Wire Wire Line
+	4150 3150 3950 3150
+Wire Wire Line
+	4150 3250 3950 3250
+Wire Wire Line
+	4150 3350 3950 3350
+Wire Wire Line
+	4150 3450 3950 3450
+Wire Wire Line
+	4150 3550 3950 3550
+Wire Wire Line
+	4150 3650 3950 3650
+Wire Wire Line
+	4150 3750 3950 3750
+Wire Wire Line
+	4150 3850 3950 3850
+Wire Wire Line
+	4150 3950 3950 3950
+Wire Wire Line
+	4150 4050 3950 4050
+Text Label 4150 3150 2    60   ~ 0
+GPIO_0
+Text Label 4150 3250 2    60   ~ 0
+GPIO_1
+Text Label 4150 3350 2    60   ~ 0
+GPIO_6
+Text Label 4150 3450 2    60   ~ 0
+GPIO_7
+Text Label 4150 3550 2    60   ~ 0
+GPIO_16
+Text Label 4150 3650 2    60   ~ 0
+GPIO_17
+Text Label 4150 3750 2    60   ~ 0
+GPIO_18
+Text Label 4150 3850 2    60   ~ 0
+WAKEUP
+Text Label 4150 3950 2    60   ~ 0
+SUSPEND
+Text Label 4150 4050 2    60   ~ 0
+GND
+Wire Wire Line
+	4950 2750 4300 2750
+Wire Wire Line
+	4300 2750 4300 2350
+Wire Wire Line
+	4950 2850 4200 2850
+Wire Wire Line
+	4200 2850 4200 2350
+$EndSCHEMATC
