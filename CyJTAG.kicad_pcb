@@ -3,7 +3,7 @@
   (general
     (links 57)
     (no_connects 0)
-    (area 97.714999 94.539999 127.710001 117.550001)
+    (area 94.405 92.347 129.964335 119.593)
     (thickness 1.6)
     (drawings 13)
     (tracks 355)
@@ -78,7 +78,7 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
