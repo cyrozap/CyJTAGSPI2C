@@ -170,13 +170,13 @@ F 3 "" H 1800 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2200 2400 0    60   ~ 0
-USBDM
+USBDP
 Text Label 2200 2550 0    60   ~ 0
-USBDP
-Text Label 5050 2750 2    60   ~ 0
 USBDM
-Text Label 5050 2850 2    60   ~ 0
+Text Label 5050 2750 2    60   ~ 0
 USBDP
+Text Label 5050 2850 2    60   ~ 0
+USBDM
 $Comp
 L +5V #PWR06
 U 1 1 55D6D98A
